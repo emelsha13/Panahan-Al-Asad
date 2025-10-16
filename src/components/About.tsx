@@ -102,40 +102,40 @@ export function About() {
       <section id="visi-misi" className="py-20 bg-background">
         <div className="w-full px-6 lg:px-12 max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12">
-            <Card className="p-8 bg-primary/5 border-primary/20">
+            <Card className="p-8 bg-gradient-to-br from-secondary/30 via-white/80 to-primary/20 border-0 shadow-lg">
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
-                  <Target className="w-6 h-6 text-primary-foreground" />
+                <div className="w-12 h-12 bg-secondary rounded-full flex items-center justify-center shadow-md">
+                  <Target className="w-6 h-6 text-white" />
                 </div>
-                <h2 className="text-3xl text-primary">Visi</h2>
+                <h2 className="text-4xl font-bold text-secondary drop-shadow">Visi</h2>
               </div>
-              <p className="text-lg">
+              <p className="text-lg md:text-xl text-primary font-medium italic leading-relaxed">
                 Menjadi klub panahan terdepan di Indonesia yang mencetak atlet-atlet berprestasi dan memasyarakatkan olahraga panahan sebagai gaya hidup sehat dan sportif.
               </p>
             </Card>
 
-            <Card className="p-8 bg-secondary/5 border-secondary/20">
+            <Card className="p-8 bg-gradient-to-br from-primary/30 via-white/80 to-secondary/20 border-0 shadow-lg">
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-12 h-12 bg-secondary rounded-full flex items-center justify-center">
-                  <Heart className="w-6 h-6 text-secondary-foreground" />
+                <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center shadow-md">
+                  <Heart className="w-6 h-6 text-white" />
                 </div>
-                <h2 className="text-3xl text-secondary">Misi</h2>
+                <h2 className="text-4xl font-bold text-primary drop-shadow">Misi</h2>
               </div>
-              <ul className="space-y-3 text-lg">
+              <ul className="space-y-3 text-lg md:text-xl text-secondary font-medium italic leading-relaxed">
                 <li className="flex items-start gap-2">
-                  <span className="text-secondary mt-1">•</span>
+                  <span className="text-primary mt-1">•</span>
                   <span>Memberikan pelatihan berkualitas dengan standar internasional</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-secondary mt-1">•</span>
+                  <span className="text-primary mt-1">•</span>
                   <span>Mengembangkan karakter dan disiplin melalui olahraga</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-secondary mt-1">•</span>
+                  <span className="text-primary mt-1">•</span>
                   <span>Menciptakan komunitas panahan yang solid dan suportif</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-secondary mt-1">•</span>
+                  <span className="text-primary mt-1">•</span>
                   <span>Memfasilitasi atlet untuk berkompetisi di berbagai event</span>
                 </li>
               </ul>

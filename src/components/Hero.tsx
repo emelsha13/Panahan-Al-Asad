@@ -25,7 +25,7 @@ export function Hero() {
       <div className="relative h-full flex items-center">
         <div className="w-full px-6 lg:px-12 max-w-7xl mx-auto">
           <div className="max-w-2xl">
-            <h1 className="text-5xl md:text-7xl text-white mb-6">
+            <h1 className="text-4xl md:text-5xl text-white mb-6">
               Temukan Passion Anda dalam Club Panahan Al-Asad
             </h1>
             <p className="text-xl text-white/90 mb-8">
