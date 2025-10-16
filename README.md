@@ -1,7 +1,7 @@
 
   # Al-Alsad
 
-  This is a code bundle for Al-Alsad. The original project is available at https://www.figma.com/design/69LHB3TbKeNc0PsfMDZFUD/Al-Asad.
+  
 
   ## Running the code
 
