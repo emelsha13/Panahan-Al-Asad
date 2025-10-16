@@ -12,7 +12,7 @@ export function Programs() {
   };
 
   return (
-    <section id="program" className="py-20 bg-gradient-to-b from-muted/30 to-white">
+    <section id="program" className="py-20 bg-gradient-to-b from-muted/30 to-background">
       <div className="w-full px-6 lg:px-12 max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-4xl mb-4 text-primary">Program Latihan</h2>
